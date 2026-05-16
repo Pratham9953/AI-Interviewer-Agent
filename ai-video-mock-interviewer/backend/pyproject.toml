@@ -1,0 +1,6 @@
+[project]
+name="ai-video-mock-interviewer-backend"
+version="0.1.0"
+dependencies=["fastapi","uvicorn","pydantic","pydantic-settings","sqlalchemy","asyncpg","alembic","redis","celery","boto3","python-multipart","openai","langchain","langchain-openai","langgraph","python-jose","passlib[bcrypt]","httpx","tenacity","orjson","pgvector"]
+[tool.pytest.ini_options]
+asyncio_mode="auto"
